@@ -120,3 +120,5 @@ While the current implementation meets the basic requirements, several enhanceme
 =======
 - **Asynchronous Support**: Explore the use of asynchronous database drivers (e.g., asyncpg) for improved performance under high load.
 >>>>>>> origin/main
+- **API key management**: Implement API key management for better control over API access.
+- **Rate Limiting**: Implement rate limiting to prevent abuse of the API and ensure fair usage among clients.

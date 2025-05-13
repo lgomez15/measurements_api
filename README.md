@@ -115,4 +115,8 @@ While the current implementation meets the basic requirements, several enhanceme
 - **Additional Validation**: Enhance validation for measurement attributes, such as ensuring `co2_value` is within a realistic range or that `unit` is one of a predefined set of values.
 - **Database Migrations**: Replace the current `create_all` approach with migrations using Alembic for better schema management in larger projects.
 - **Kafka Integration**: Consider integrating with Kafka for real-time data processing and event-driven architecture.
+<<<<<<< HEAD
 - **Asynchronous Support**: Explore the use of asynchronous database drivers (e.g., asyncpg) for improved performance under high load.
+=======
+- **Asynchronous Support**: Explore the use of asynchronous database drivers (e.g., asyncpg) for improved performance under high load.
+>>>>>>> origin/main

@@ -50,7 +50,8 @@ To run this application, you need the following installed:
 
 ## Running the Application
 - The API will be available at `http://localhost:8000`.
-- Access the automatically generated Swagger documentation at `http://localhost:8000/docs` to explore and test the API endpoints interactively.
+- Access the automatically generated Swagger documentation at `http://localhost:8000/docs` to explore and test the API endpoints interactively. 
+- For testing purposes, you can use the api-key `simple-secret-key` to access the endpoints. This key is not secure and should not be used in production.
 
 ## API Endpoints
 The following endpoints are available for interacting with the measurement data:
@@ -120,5 +121,5 @@ While the current implementation meets the basic requirements, several enhanceme
 =======
 - **Asynchronous Support**: Explore the use of asynchronous database drivers (e.g., asyncpg) for improved performance under high load.
 >>>>>>> origin/main
-- **API key management**: Implement API key management for better control over API access.
+- **API key management**: Implement API key management for better control over API access. I mean a serious implementation, not just a simple one.
 - **Rate Limiting**: Implement rate limiting to prevent abuse of the API and ensure fair usage among clients.
